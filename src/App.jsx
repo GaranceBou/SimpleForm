@@ -1,6 +1,6 @@
 import { useState, useTransition } from "react";
 import "./App.css";
-import Footer from "../Footer";
+import Footer from "./components/Footer";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
 library.add(faEye, faEyeSlash);
@@ -124,5 +124,3 @@ function App() {
 }
 
 export default App;
-
-<FontAwesomeIcon icon="fa-solid fa-eye" />;
